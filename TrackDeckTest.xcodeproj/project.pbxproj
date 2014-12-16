@@ -12,6 +12,7 @@
 		19D0B3C21A3F01DA00FB02F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D0B3C11A3F01DA00FB02F2 /* Images.xcassets */; };
 		19D0B3C51A3F01DA00FB02F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D0B3C31A3F01DA00FB02F2 /* Main.storyboard */; };
 		19D0B3D11A3F01DA00FB02F2 /* TrackDeckTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D0B3D01A3F01DA00FB02F2 /* TrackDeckTestTests.swift */; };
+		19D0B3DE1A3F258F00FB02F2 /* drum loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 19D0B3DD1A3F258F00FB02F2 /* drum loop.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		19D0B3CA1A3F01DA00FB02F2 /* TrackDeckTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackDeckTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D0B3CF1A3F01DA00FB02F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19D0B3D01A3F01DA00FB02F2 /* TrackDeckTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDeckTestTests.swift; sourceTree = "<group>"; };
+		19D0B3DD1A3F258F00FB02F2 /* drum loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drum loop.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		19D0B3AF1A3F01D900FB02F2 = {
 			isa = PBXGroup;
 			children = (
+				19D0B3DA1A3F149C00FB02F2 /* Resources */,
 				19D0B3BA1A3F01DA00FB02F2 /* TrackDeckTest */,
 				19D0B3CD1A3F01DA00FB02F2 /* TrackDeckTestTests */,
 				19D0B3B91A3F01DA00FB02F2 /* Products */,
@@ -107,6 +110,14 @@
 				19D0B3CF1A3F01DA00FB02F2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19D0B3DA1A3F149C00FB02F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19D0B3DD1A3F258F00FB02F2 /* drum loop.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 			files = (
 				19D0B3C21A3F01DA00FB02F2 /* Images.xcassets in Resources */,
 				19D0B3C51A3F01DA00FB02F2 /* Main.storyboard in Resources */,
+				19D0B3DE1A3F258F00FB02F2 /* drum loop.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +409,7 @@
 				19D0B3D61A3F01DA00FB02F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19D0B3D71A3F01DA00FB02F2 /* Build configuration list for PBXNativeTarget "TrackDeckTestTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +418,7 @@
 				19D0B3D91A3F01DA00FB02F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
